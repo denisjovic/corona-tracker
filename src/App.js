@@ -3,6 +3,7 @@ import Search from './Country';
 import Global from './Global';
 import Header from './Header';
 import Footer from './Footer';
+import Particles from './Particles';
 
 function App() {
   let [showCountry, setShowCountry] = React.useState(false);
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
+      <Particles/ >
       <div className='main'>
         {!showCountry || !searchTerm? (
           <Global date={date} />
@@ -35,7 +37,7 @@ function App() {
               placeholder='Search country...'
             />
             <button
-              className='button is-primary'
+              className='button is-primary grow'
               id='search'
               onClick={handleCountry}
             >

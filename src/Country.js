@@ -36,13 +36,13 @@ function Search(props) {
       <h1 className='f3 f2-m f1-m fw2 black-90 mv3'>Statistics for {countryData.country} on {props.date}</h1>
       <div className='dt dt--fixed'>
         <div className='dtc tc pv4 bg-red shadow-5'>
-          <p className='f3 f2-m f1-s fw2 black-90 mv3'>Confirmed: {countryData.cases}</p>
+          <p className='f3 f2-m f1-s fw2 black-90 mv3 grow'>Confirmed: {countryData.cases}</p>
           </div>
         <div className='dtc tc pv4 bg-green shadow-5'>
-            <p className='f3 f2-m f1-s fw2 black-90 mv3'>Recovered: {countryData.recovered}</p>
+            <p className='f3 f2-m f1-s fw2 black-90 mv3 grow'>Recovered: {countryData.recovered}</p>
         </div>
         <div className='dtc tc pv4 bg-gray shadow-5'>
-        <p className='f3 f2-m f1-s fw2 black-90 mv3'>Deaths: {countryData.deaths}</p>
+        <p className='f3 f2-m f1-s fw2 black-90 mv3 grow'>Deaths: {countryData.deaths}</p>
         </div>
       </div>
     </div>
