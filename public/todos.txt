@@ -1,0 +1,19 @@
+App.js
+- pozovi api ✅
+- prikazi podatke na UI ✅
+
+Search.js
+ - input polje gde user unosi ime drzave & btn ✅
+ - onclick, salje se get request ka api-ju ✅
+ - response se prikazuje na UI ✅
+ (umesto podataka za sve, pokazuje se za jednu drzavu) ✅
+
+ - Dodaj logo ✅
+ - Dodaj favicon
+ - Dodaj dynamic background
+ - Bulma umesto Tachyon-a? ✅
+ - Dodaj buy me a coffee? 
+ - Dodaj autolokaciju?
+ - Dodaj footer
+
+ 

@@ -5,9 +5,111 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F6FFFE;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ba {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bn {
+  border-style: none;
+  border-width: 0;
+}
+
+.b--black-10 {
+  border-color: rgba(0, 0, 0, .1);
+}
+.field {
+  text-align: center;
+  margin: 100px;
+}
+
+input {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+.bg-red {
+   background-color: #FF725C;
+}
+
+.bg-gray { 
+  background-color: #777777 
+}
+
+
+.bg-green { 
+  background-color: #19A974 
+}
+
+
+.pv4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tc {
+  text-align: center;
+}
+
+.shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+
+
+@media screen and (min-width: 30em) {
+  .dt-ns {
+      display: table;
+  }
+
+  .dtc-ns {
+      display: table-cell;
+  }
+
+  .dt--fixed-ns {
+      table-layout: fixed;
+      width: 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#search {
+  size: 1.3rem;
+  margin: 20px;
+}
+
+#Filledoutline {
+  margin-top: 30px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.main {
+  margin-bottom: 100px;
+}
+.footer {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
