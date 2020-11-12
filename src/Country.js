@@ -33,7 +33,7 @@ function Search(props) {
 
   return (
     <div>
-      <h1 className='f3 f2-m f1-m fw2 black-90 mv3'>Statistics for {countryData.country} on {props.date}:</h1>
+      <h1 className='f3 f2-m f1-m fw2 black-90 mv3'>Statistics for {countryData.country} on {props.date}</h1>
       <div className='dt dt--fixed'>
         <div className='dtc tc pv4 bg-red shadow-5'>
           <p className='f3 f2-m f1-s fw2 black-90 mv3'>Confirmed: {countryData.cases}</p>

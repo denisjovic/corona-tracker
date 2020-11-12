@@ -21,7 +21,7 @@ function App() {
     <div className='App'>
       <Header />
       <div className='main'>
-        {!showCountry ? (
+        {!showCountry || !searchTerm? (
           <Global date={date} />
         ) : (
           <Search link={searchTerm} date={date} />
