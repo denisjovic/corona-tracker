@@ -24,7 +24,7 @@ function App() {
         {!showCountry || !searchTerm? (
           <Global date={date} />
         ) : (
-          <Search link={searchTerm} date={date} />
+          <Search link={searchTerm.toLowerCase()} date={date} />
         )}
         <div className='field'>
           <div className='control'>
