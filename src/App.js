@@ -3,15 +3,16 @@ import Search from './Country';
 import Global from './Global';
 import Header from './Header';
 import Footer from './Footer';
-import Particles from './Particles';
 
 function App() {
   let [showCountry, setShowCountry] = React.useState(false);
   let [searchTerm, setSearchTerm] = React.useState('');
+  let [inputValue, setInputValue] = React.useState('');
 
   const handleCountry = () => {
     setShowCountry(!showCountry);
     setSearchTerm(searchTerm);
+    setInputValue("");
   };
 
   const today = new Date();
@@ -20,8 +21,9 @@ function App() {
 
   return (
     <div className='App'>
+      <div>
       <Header />
-      <Particles/ >
+      </div>
       <div className='main'>
         {!showCountry || !searchTerm? (
           <Global date={date} />
